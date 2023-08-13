@@ -1,6 +1,6 @@
-import Nav from "@components/Nav";
+import Nav from "../components/Nav";
 import "../style/globals.css";
-import { NextAuthProvider } from "@components/Provider";
+import { NextAuthProvider } from "../components/Provider";
 
 export const metadata = {
   title: "Promptopia",
