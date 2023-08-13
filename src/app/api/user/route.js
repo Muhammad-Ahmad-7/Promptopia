@@ -1,5 +1,5 @@
-import { connectToDB } from "@Utils/database";
-import User from "@models/user";
+import { connectToDB } from "../../../Utils/database";
+import User from "../../../models/user";
 
 export async function POST(request) {
   await connectToDB();
