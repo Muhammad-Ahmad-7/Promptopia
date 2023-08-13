@@ -1,0 +1,42 @@
+nav {
+    margin-top: 5px;
+}
+
+.nav-div {
+    display: flex;
+    gap: 5px;
+    /* background-color: black; */
+}
+
+.nav-div2 {
+    display: none;
+    position: relative;
+}
+
+.profile {
+    border-radius: 50%;
+}
+
+.create-btn {
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 87 34 / var(--tw-bg-opacity));
+    border-radius: 40%;
+    padding: 5px 5px;
+    margin: 0 5px;
+    color: white;
+}
+
+.edit, .delete {
+    cursor: pointer;
+    margin: 0 5px;
+    background-color: chocolate;
+}
+
+@media screen and (max-width: 740px) {
+    .nav-div {
+        display: none;
+    }
+    .nav-div2 {
+        display: flex;
+    }
+}
